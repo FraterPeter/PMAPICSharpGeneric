@@ -5,7 +5,7 @@ For full documentation on Sign-Up.to's Permission Marketing API please see their
 
 ## Examples
 
-### Adding a folder
+### Example 1: Adding a folder
 
 ```csharp
 Client client = new Client(new HashAuthenticator(1234, 12345, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
@@ -26,7 +26,7 @@ else
 }
 ```
 
-### Retrieving subscribers
+### Example 2: Retrieving subscribers
 
 ```csharp
 Client client = new Client(new HashAuthenticator(1234, 12345, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
