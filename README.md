@@ -25,3 +25,26 @@ else
   Console.WriteLine("Created folder:" + response.Data[0]["name"] + " id:" + response.Data[0]["id"]);
 }
 ```
+
+### Retrieving subscribers
+
+```csharp
+Client client = new Client(new HashAuthenticator(1234, 12345, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
+Hashtable attributes = new Hashtable();
+
+Response response = client.get("subscriber", attributes);
+
+if (response.IsError)
+{
+  // Something went wrong
+  Console.WriteLine(response.Error.Message);
+}
+else
+{                
+  foreach(var subscriber in response.Data)
+  {
+    Console.WriteLine("Email address:" + subscriber["email"] + " id:" + subscriber["id"]);
+  }
+}
+
+```
