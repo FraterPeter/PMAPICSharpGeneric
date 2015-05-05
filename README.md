@@ -7,13 +7,13 @@ For full documentation on Sign-Up.to's Permission Marketing API please see their
 
 ### Adding a folder
 
-```
+```csharp
 Client client = new Client(new HashAuthenticator(1234, 12345, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"));
 Hashtable attributes = new Hashtable();
 
 attributes.Add("name", "Example folder name");
 
-Response response = client.post("folder", properties);
+Response response = client.post("folder", attributes);
 
 if (response.IsError)
 {
