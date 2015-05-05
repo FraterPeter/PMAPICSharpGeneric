@@ -1,7 +1,7 @@
 # PMAPICSharpGeneric
 A generic C# library for [Sign-Up.to's Permission Marketing API (PMAPI)](https://dev.sign-up.to/)
 
-For full documentation on Sign-Up.to's Permission Marketing API please see their DEV site at: https://dev.sign-up.to/
+For full documentation on Sign-Up.to's Permission Marketing API please refer to the [dev site](https://dev.sign-up.to/)
 
 ## Examples
 
