@@ -1,4 +1,4 @@
-![PMAPI logo](https://sapp.s3.amazonaws.com/github/sutpmapi.png)
+[PMAPI logo]: https://sapp.s3.amazonaws.com/github/sutpmapi.png 
 
 
 # PMAPICSharpGeneric
