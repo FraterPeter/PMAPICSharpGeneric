@@ -1,5 +1,4 @@
-![PMAPI logo](https://sapp.s3.amazonaws.com/github/sutpmapi.png  "")
-
+[![PMAPI logo](https://sapp.s3.amazonaws.com/github/sutpmapi.png)](https://dev.sign-up.to/)
 
 # PMAPICSharpGeneric
 A generic C# library for [Sign-Up.to's Permission Marketing API (PMAPI)](https://dev.sign-up.to/)
