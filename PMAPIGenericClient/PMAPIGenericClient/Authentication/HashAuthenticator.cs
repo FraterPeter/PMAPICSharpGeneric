@@ -7,7 +7,7 @@ using System.Security.Cryptography;
 
 namespace SuT.PMAPI.Generic
 {
-    class HashAuthenticator : IAuthenticator
+    public class HashAuthenticator : IAuthenticator
     {
         private readonly string _cid;
         private readonly string _uid;
